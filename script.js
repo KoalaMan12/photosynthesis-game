@@ -7,8 +7,8 @@ canvas.height = 400;
 // Game variables
 let playerX = canvas.width / 2 - 25;
 const playerY = canvas.height - 50;
-const playerWidth = 50;
-const playerHeight = 50;
+const playerWidth = 60;
+const playerHeight = 80;
 
 let score = 0;
 let sunlight = [];
