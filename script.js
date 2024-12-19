@@ -15,6 +15,10 @@ let sunlight = [];
 let clouds = [];
 let gameSpeed = 2;
 
+// Load player image (tree.png)
+const playerImage = new Image();
+playerImage.src = "tree.png"; // Path to your image file
+
 // Key controls
 let keys = {};
 document.addEventListener("keydown", (e) => {
@@ -31,10 +35,9 @@ function createObject(type) {
   return { x, y: -size, size, type };
 }
 
-// Draw the plant
+// Draw the player (using image)
 function drawPlayer() {
-  ctx.fillStyle = "green";
-  ctx.fillRect(playerX, playerY, playerWidth, playerHeight);
+  ctx.drawImage(playerImage, playerX, playerY, playerWidth, playerHeight);
 }
 
 // Draw sunlight or clouds
