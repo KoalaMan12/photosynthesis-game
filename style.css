@@ -1,0 +1,31 @@
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #d4f1c5;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #2e7d32;
+}
+
+#game-container {
+  position: relative;
+  margin: 20px auto;
+  width: 600px;
+  height: 400px;
+  border: 2px solid #2e7d32;
+  background-color: #87ceeb;
+  overflow: hidden;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+}
+
+p {
+  font-size: 18px;
+  color: #333;
+}
